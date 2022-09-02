@@ -17,11 +17,9 @@
         right-8
         flex flex-col
         items-center
-        animate-bounce
       "
     >
-      <div class="text-primary text-xs font-bold">To Top</div>
-      <div class="bg-primary p-3 text-white rounded-full shadow-xl">
+      <div class="bg-secondary p-3 text-white rounded-full shadow-xl">
         <svg class="h-6 w-6 md:h-5 md:w-5" viewBox="0 0 24 24">
           <path
             fill="currentColor"
