@@ -20,11 +20,19 @@
         text-white
       "
     >
-      <div class="font-bold lg:text-4xl text-2xl py-3">
+      <div
+        class="font-bold lg:text-4xl text-2xl py-3"
+        data-aos="fade-right"
+        data-aos-duration="1900"
+      >
         We know <br />
         <span class="text-blue-500">& understand</span> your <br />great choice
       </div>
-      <div class="text-xs text-gray-200">
+      <div
+        class="text-xs text-gray-200"
+        data-aos="fade-right"
+        data-aos-duration="2100"
+      >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
         distinctio sed fugiat, id at, mollitia laboriosam placeat nulla earum
         nisi sit assumenda optio in ipsum ex ut provident aliquid dolorem!

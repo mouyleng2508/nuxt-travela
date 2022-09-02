@@ -1,9 +1,17 @@
 <template>
   <div class="lg:h-screen bg-blue-50 lg:px-16 md:px-24 px-4 lg:py-16 py-10">
-    <div class="lg:text-4xl text-2xl font-bold text-center">
+    <div
+      class="lg:text-4xl text-2xl font-bold text-center"
+      data-aos="zoom-in"
+      data-aos-duration="2100"
+    >
       Our Latest <span class="text-secondary font-bold">News</span>
     </div>
-    <div class="text-gray-500 text-center pb-6 pt-2 text-xs lg:text-sm">
+    <div
+      class="text-gray-500 text-center pb-6 pt-2 text-xs lg:text-sm"
+      data-aos="zoom-in"
+      data-aos-duration="1900"
+    >
       There is an anti-aging revolution occurring in healthcare today and that
       you are the main bene
     </div>

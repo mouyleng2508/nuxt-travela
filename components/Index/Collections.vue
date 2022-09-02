@@ -14,18 +14,32 @@
     "
   >
     <div class="lg:w-1/3">
-      <div class="text-sm text-black font-medium">Collection in 2022</div>
-      <div class="font-bold lg:text-4xl text-2xl capitalize py-3">
+      <div
+        class="text-sm text-black font-medium"
+        data-aos="zoom-in"
+        data-aos-duration="1900"
+      >
+        Collection in 2022
+      </div>
+      <div
+        class="font-bold lg:text-4xl text-2xl capitalize py-3"
+        data-aos="fade-up"
+        data-aos-duration="2100"
+      >
         Rich Home <br /><span class="text-secondary">Your First Choice</span
         ><br />
         from $198k
       </div>
-      <div class="text-xs text-black">
+      <div
+        class="text-xs text-black"
+        data-aos="zoom-in"
+        data-aos-duration="2100"
+      >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
         distinctio sed fugiat, id at, mollitia laboriosam placeat nulla earum
         nisi sit assumenda optio in ipsum ex ut provident aliquid dolorem!
       </div>
-      <div class="pt-4">
+      <div class="pt-4" data-aos="fade-up-left" data-aos-duration="1800">
         <button
           class="
             bg-blue-500
@@ -53,21 +67,21 @@
       <div class="p-2 h-64 w-44 shadow-lg">
         <img
           class="object-cover h-full"
-          src="/collections/collection1.jpg"
+          src="/Collections/collection1.jpg"
           alt=""
         />
       </div>
       <div class="p-2 h-96 w-56 shadow-lg">
         <img
           class="object-cover h-full"
-          src="/collections/collection1.jpg"
+          src="/Collections/collection2.jpg"
           alt=""
         />
       </div>
       <div class="p-2 h-64 w-44 shadow-lg">
         <img
           class="object-cover h-full"
-          src="/collections/collection1.jpg"
+          src="/Collections/collection3.jpg"
           alt=""
         />
       </div>

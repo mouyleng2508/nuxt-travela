@@ -15,6 +15,7 @@
             flex flex-col
             items-center
             justify-center
+            rounded-lg
             bg-white bg-opacity-90
             lg:p-10
             p-4

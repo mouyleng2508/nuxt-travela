@@ -25,10 +25,10 @@
       <!-- <div class=" ">small text</div> -->
 
       <div class="lg:w-44 xl:w-52">
-        <img class="object-contain" src="/collections/collection1.jpg" alt="" />
+        <img class="object-contain" src="/About/venice1.jpg" alt="" />
       </div>
       <div class="lg:w-44 xl:w-52">
-        <img class="object-contain" src="/collections/collection1.jpg" alt="" />
+        <img class="object-contain" src="/About/cristal.jpg" alt="" />
       </div>
     </div>
     <div class="bg-primary py-10 text-white px-6">
