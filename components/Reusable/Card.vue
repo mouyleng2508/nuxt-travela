@@ -1,11 +1,21 @@
 <template>
   <div>
-    <div class="font-light text-xs">Real Estate News</div>
-    <div class="text-xl font-bold">
+    <div
+      class="font-light text-xs"
+      data-aos="fade-down"
+      data-aos-duration="1900"
+    >
+      Real Estate News
+    </div>
+    <div
+      class="text-xl font-bold"
+      data-aos="fade-down"
+      data-aos-duration="2600"
+    >
       3 Steps to get that quick summer <br />
       glow head to toes
     </div>
-    <div class="pt-3">
+    <div class="pt-3" data-aos="fade-down" data-aos-duration="2800">
       <button
         class="
           bg-secondary

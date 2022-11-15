@@ -27,11 +27,11 @@
       </div>
 
       <!-- Burger Icon -->
-      <!-- <MenuIcon
+      <MenuIcon
         :toggleDrawer="toggleDrawer"
         class="lg:hidden ml-2"
         :class="` ${scrollPosition == 0 ? 'text-white' : 'text-black '}`"
-      /> -->
+      />
 
       <div class="hidden w-full lg:block md:w-auto" id="navbar-default">
         <ul class="flex flex-col p-4 mt-4 md:flex-row md:space-x-12 md:mt-0">
@@ -40,18 +40,9 @@
             :key="n"
             :to="item.to"
             @click="drawer = false"
-            class="
-              block
-              py-2
-              pr-4
-              pl-3
-              text-xs
-              md:border-0
-              hover:text-primary
-              md:p-0
-            "
+            class="block py-2 pr-4 pl-3 text-xs hover:text-secondary md:p-0"
             :class="` ${scrollPosition == 0 ? 'text-white' : 'text-black '}`"
-            active-class="text-primary border-b border-primary font-bold "
+            active-class="text-secondary border-b border-secondary font-bold "
             exact=""
           >
             <li>{{ item.title }}</li>
@@ -94,7 +85,8 @@
           z-50
           top-0
           left-0
-          bg-white
+          h-screen
+          bg-blue-50
           filter
           drop-shadow-lg
           transform
@@ -102,8 +94,8 @@
           ease-out
         "
       >
-        <div class="flex justify-between w-full">
-          <div>
+        <div class="flex justify-end w-full">
+          <!-- <div>
             <NuxtLink to="/" class="flex items-center">
               <img
                 class="md:h-10 h-8"
@@ -111,10 +103,10 @@
                 alt="ATTCAPITAL_LOGO_LIGHT.png"
               />
               <div class="uppercase md:text-base text-sm text-black font-bold">
-                Tranvelus
+                Travelus
               </div>
             </NuxtLink>
-          </div>
+          </div> -->
 
           <!-- close drawer -->
           <div @click="toggleDrawer">
@@ -131,7 +123,7 @@
           </div>
         </div>
 
-        <div class="w-full border-b border-primary py-1"></div>
+        <!-- <div class="w-full border-b border-primary py-1"></div> -->
 
         <ul
           class="
@@ -143,18 +135,26 @@
             space-y-2
             p-4
             py-3
-            md:flex-row md:space-x-12 md:mt-0
+            md:mt-0
           "
         >
           <NuxtLink
             v-for="(item, n) in navItems"
             :key="n"
             :to="item.to"
-            class="block pt-4 text-xs hover:text-primary text-center text-black"
-            active-class="text-primary border-b border-primary font-bold "
+            class="
+              block
+              pt-4
+              text-2xl
+              hover:underline
+              font-extrabold
+              hover:text-primary
+              text-center text-black
+            "
+            active-class="text-secondary underline font-bold "
             exact=""
           >
-            <li @click="drawer = false">{{ item.title }}</li>
+            <li @click="drawer = false" class="py-4">{{ item.title }}</li>
           </NuxtLink>
         </ul>
       </div>
@@ -163,14 +163,13 @@
 </template>
 
 <script>
-// import MenuIcon from "~/components/icons/Menu.vue";
-
 //icons
+import MenuIcon from "~/components/Icons/Menu.vue";
 import Moon from "@/components/Icons/Moon.vue";
 import Sun from "@/components/Icons/Sun.vue";
 export default {
   components: {
-    // MenuIcon,
+    MenuIcon,
     Moon,
     Sun,
   },
